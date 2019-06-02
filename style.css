@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+
+nav{
+    align-items: flex-start;
+    padding: 16px;
+    background: #D7E8D4;
+    width: 17vw;
+
+}
+
+
+#main{
+    display: flex;
+    flex-flow: nowrap row;
+    height: 66vh;
+}
+header {
+    background: yellowgreen;
+    height: 17vh;
+    padding: 16px;
+
+}
+#main > article{
+    order: 1;
+    align-content: center;
+    padding: 16px;
+    width: 60vw;
+}
+#main > aside{
+    order: 2;
+    align-content:  flex-end;
+    padding: 16px;
+    background: beige;
+    width: 18vw;
+}
+
+
+footer{
+    background: yellowgreen;
+    height: 17vh;
+    padding: 16px;
+}
